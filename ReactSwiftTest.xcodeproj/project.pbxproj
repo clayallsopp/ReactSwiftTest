@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F851DF431E289B08000AFE1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851DF421E289B08000AFE1C /* AppDelegate.swift */; };
+		F851DF451E289B08000AFE1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851DF441E289B08000AFE1C /* ViewController.swift */; };
+		F851DF481E289B08000AFE1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F851DF461E289B08000AFE1C /* Main.storyboard */; };
+		F851DF4A1E289B08000AFE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F851DF491E289B08000AFE1C /* Assets.xcassets */; };
+		F851DF4D1E289B08000AFE1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F851DF4B1E289B08000AFE1C /* LaunchScreen.storyboard */; };
+		F851DF571E28A04C000AFE1C /* Thing.m in Sources */ = {isa = PBXBuildFile; fileRef = F851DF561E28A04C000AFE1C /* Thing.m */; };
+		F851DF741E28A0A3000AFE1C /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F851DF651E28A075000AFE1C /* libReact.a */; };
+		F851DF7E1E28A936000AFE1C /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F851DF7B1E28A92F000AFE1C /* libRCTWebSocket.a */; };
+		F851DF881E28A967000AFE1C /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F851DF851E28A963000AFE1C /* libRCTNetwork.a */; };
+		F851DF921E28A992000AFE1C /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F851DF8F1E28A98E000AFE1C /* libRCTText.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F851DF641E28A075000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF591E28A075000AFE1C /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		F851DF661E28A075000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF591E28A075000AFE1C /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		F851DF681E28A075000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF591E28A075000AFE1C /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		F851DF6A1E28A075000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF591E28A075000AFE1C /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		F851DF6C1E28A075000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF591E28A075000AFE1C /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		F851DF6E1E28A075000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF591E28A075000AFE1C /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		F851DF701E28A075000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF591E28A075000AFE1C /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		F851DF721E28A075000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF591E28A075000AFE1C /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
+		F851DF7A1E28A92F000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF751E28A92F000AFE1C /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		F851DF7C1E28A92F000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF751E28A92F000AFE1C /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28881D9B049200D4039D;
+			remoteInfo = "RCTWebSocket-tvOS";
+		};
+		F851DF841E28A963000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF7F1E28A963000AFE1C /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		F851DF861E28A963000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF7F1E28A963000AFE1C /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28541D9B044C00D4039D;
+			remoteInfo = "RCTNetwork-tvOS";
+		};
+		F851DF8E1E28A98E000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF891E28A98D000AFE1C /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		F851DF901E28A98E000AFE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F851DF891E28A98D000AFE1C /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A287B1D9B048500D4039D;
+			remoteInfo = "RCTText-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F851DF3F1E289B08000AFE1C /* ReactSwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactSwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F851DF421E289B08000AFE1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F851DF441E289B08000AFE1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F851DF471E289B08000AFE1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F851DF491E289B08000AFE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F851DF4C1E289B08000AFE1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F851DF4E1E289B08000AFE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F851DF541E28A04B000AFE1C /* ReactSwiftTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactSwiftTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		F851DF551E28A04C000AFE1C /* Thing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thing.h; sourceTree = "<group>"; };
+		F851DF561E28A04C000AFE1C /* Thing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thing.m; sourceTree = "<group>"; };
+		F851DF591E28A075000AFE1C /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		F851DF751E28A92F000AFE1C /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
+		F851DF7F1E28A963000AFE1C /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
+		F851DF891E28A98D000AFE1C /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F851DF3C1E289B08000AFE1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F851DF921E28A992000AFE1C /* libRCTText.a in Frameworks */,
+				F851DF881E28A967000AFE1C /* libRCTNetwork.a in Frameworks */,
+				F851DF7E1E28A936000AFE1C /* libRCTWebSocket.a in Frameworks */,
+				F851DF741E28A0A3000AFE1C /* libReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F851DF361E289B08000AFE1C = {
+			isa = PBXGroup;
+			children = (
+				F851DF411E289B08000AFE1C /* ReactSwiftTest */,
+				F851DF401E289B08000AFE1C /* Products */,
+				F851DF581E28A075000AFE1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F851DF401E289B08000AFE1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F851DF3F1E289B08000AFE1C /* ReactSwiftTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F851DF411E289B08000AFE1C /* ReactSwiftTest */ = {
+			isa = PBXGroup;
+			children = (
+				F851DF421E289B08000AFE1C /* AppDelegate.swift */,
+				F851DF441E289B08000AFE1C /* ViewController.swift */,
+				F851DF461E289B08000AFE1C /* Main.storyboard */,
+				F851DF491E289B08000AFE1C /* Assets.xcassets */,
+				F851DF4B1E289B08000AFE1C /* LaunchScreen.storyboard */,
+				F851DF4E1E289B08000AFE1C /* Info.plist */,
+				F851DF551E28A04C000AFE1C /* Thing.h */,
+				F851DF561E28A04C000AFE1C /* Thing.m */,
+				F851DF541E28A04B000AFE1C /* ReactSwiftTest-Bridging-Header.h */,
+			);
+			path = ReactSwiftTest;
+			sourceTree = "<group>";
+		};
+		F851DF581E28A075000AFE1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F851DF891E28A98D000AFE1C /* RCTText.xcodeproj */,
+				F851DF7F1E28A963000AFE1C /* RCTNetwork.xcodeproj */,
+				F851DF751E28A92F000AFE1C /* RCTWebSocket.xcodeproj */,
+				F851DF591E28A075000AFE1C /* React.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F851DF5A1E28A075000AFE1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F851DF651E28A075000AFE1C /* libReact.a */,
+				F851DF671E28A075000AFE1C /* libReact.a */,
+				F851DF691E28A075000AFE1C /* libyoga.a */,
+				F851DF6B1E28A075000AFE1C /* libyoga.a */,
+				F851DF6D1E28A075000AFE1C /* libcxxreact.a */,
+				F851DF6F1E28A075000AFE1C /* libcxxreact.a */,
+				F851DF711E28A075000AFE1C /* libjschelpers.a */,
+				F851DF731E28A075000AFE1C /* libjschelpers.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F851DF761E28A92F000AFE1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F851DF7B1E28A92F000AFE1C /* libRCTWebSocket.a */,
+				F851DF7D1E28A92F000AFE1C /* libRCTWebSocket-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F851DF801E28A963000AFE1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F851DF851E28A963000AFE1C /* libRCTNetwork.a */,
+				F851DF871E28A963000AFE1C /* libRCTNetwork-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F851DF8A1E28A98D000AFE1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F851DF8F1E28A98E000AFE1C /* libRCTText.a */,
+				F851DF911E28A98E000AFE1C /* libRCTText-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F851DF3E1E289B08000AFE1C /* ReactSwiftTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F851DF511E289B08000AFE1C /* Build configuration list for PBXNativeTarget "ReactSwiftTest" */;
+			buildPhases = (
+				F851DF3B1E289B08000AFE1C /* Sources */,
+				F851DF3C1E289B08000AFE1C /* Frameworks */,
+				F851DF3D1E289B08000AFE1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactSwiftTest;
+			productName = ReactSwiftTest;
+			productReference = F851DF3F1E289B08000AFE1C /* ReactSwiftTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F851DF371E289B08000AFE1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Clay Allsopp";
+				TargetAttributes = {
+					F851DF3E1E289B08000AFE1C = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F851DF3A1E289B08000AFE1C /* Build configuration list for PBXProject "ReactSwiftTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F851DF361E289B08000AFE1C;
+			productRefGroup = F851DF401E289B08000AFE1C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F851DF801E28A963000AFE1C /* Products */;
+					ProjectRef = F851DF7F1E28A963000AFE1C /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = F851DF8A1E28A98D000AFE1C /* Products */;
+					ProjectRef = F851DF891E28A98D000AFE1C /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = F851DF761E28A92F000AFE1C /* Products */;
+					ProjectRef = F851DF751E28A92F000AFE1C /* RCTWebSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = F851DF5A1E28A075000AFE1C /* Products */;
+					ProjectRef = F851DF591E28A075000AFE1C /* React.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F851DF3E1E289B08000AFE1C /* ReactSwiftTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F851DF651E28A075000AFE1C /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = F851DF641E28A075000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF671E28A075000AFE1C /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = F851DF661E28A075000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF691E28A075000AFE1C /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = F851DF681E28A075000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF6B1E28A075000AFE1C /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = F851DF6A1E28A075000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF6D1E28A075000AFE1C /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = F851DF6C1E28A075000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF6F1E28A075000AFE1C /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = F851DF6E1E28A075000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF711E28A075000AFE1C /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = F851DF701E28A075000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF731E28A075000AFE1C /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = F851DF721E28A075000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF7B1E28A92F000AFE1C /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = F851DF7A1E28A92F000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF7D1E28A92F000AFE1C /* libRCTWebSocket-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTWebSocket-tvOS.a";
+			remoteRef = F851DF7C1E28A92F000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF851E28A963000AFE1C /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = F851DF841E28A963000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF871E28A963000AFE1C /* libRCTNetwork-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTNetwork-tvOS.a";
+			remoteRef = F851DF861E28A963000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF8F1E28A98E000AFE1C /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = F851DF8E1E28A98E000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F851DF911E28A98E000AFE1C /* libRCTText-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTText-tvOS.a";
+			remoteRef = F851DF901E28A98E000AFE1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F851DF3D1E289B08000AFE1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F851DF4D1E289B08000AFE1C /* LaunchScreen.storyboard in Resources */,
+				F851DF4A1E289B08000AFE1C /* Assets.xcassets in Resources */,
+				F851DF481E289B08000AFE1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F851DF3B1E289B08000AFE1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F851DF571E28A04C000AFE1C /* Thing.m in Sources */,
+				F851DF451E289B08000AFE1C /* ViewController.swift in Sources */,
+				F851DF431E289B08000AFE1C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F851DF461E289B08000AFE1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F851DF471E289B08000AFE1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F851DF4B1E289B08000AFE1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F851DF4C1E289B08000AFE1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F851DF4F1E289B08000AFE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F851DF501E289B08000AFE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F851DF521E289B08000AFE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ReactSwiftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clayallsopp.ReactSwiftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactSwiftTest/ReactSwiftTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F851DF531E289B08000AFE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ReactSwiftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clayallsopp.ReactSwiftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactSwiftTest/ReactSwiftTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F851DF3A1E289B08000AFE1C /* Build configuration list for PBXProject "ReactSwiftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F851DF4F1E289B08000AFE1C /* Debug */,
+				F851DF501E289B08000AFE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F851DF511E289B08000AFE1C /* Build configuration list for PBXNativeTarget "ReactSwiftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F851DF521E289B08000AFE1C /* Debug */,
+				F851DF531E289B08000AFE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F851DF371E289B08000AFE1C /* Project object */;
+}
